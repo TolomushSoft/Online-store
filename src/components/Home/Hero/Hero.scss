@@ -1,0 +1,93 @@
+#hero {
+  padding-top: 30px;
+
+  .hero {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+      padding: 0 40px 0 0;
+      width: 30%;
+
+      & * {
+        margin: 19px 0;
+      }
+
+      &__right-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2A2D46;
+      }
+
+      &__right-subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #2A2D46;
+      }
+
+      &__right-btn, {
+        padding: 16px 46px;
+        background: #EB2D66;
+        box-shadow: 0 7px 35px rgba(235, 45, 102, 0.35);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1);
+          transition: .3s;
+        }
+      }
+    }
+
+    &__background {
+      padding: 40px;
+      background: url('../../../images/hero-background.png');
+      display: flex;
+      align-items: end;
+      position: relative;
+      &__drone {
+        margin-left: -120px;
+      }
+      &__description{
+        position: absolute;
+        left: 450px;
+        & *{
+          margin:15px 0 ;
+        }
+        &__title{
+          font-style: normal;
+          font-weight: 900;
+          font-size: 15px;
+          line-height: 145.4%;
+          color: #FFFFFF;
+        }
+        &__subtitle{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #FFFFFF;
+
+        }
+        &__price{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 145.4%;
+          color: #FFFFFF;
+
+        }
+      }
+    }
+  }
+}

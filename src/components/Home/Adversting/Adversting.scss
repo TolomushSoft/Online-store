@@ -1,0 +1,82 @@
+.blocks{
+  display: flex;
+  justify-content: space-around;
+  &__block1{
+    margin-left: -60px;
+    width: 50%;
+    height: 57vh;
+    background: url("../../../images/Samokat.png");
+    &__plus{
+      margin-left: 90%;
+      margin-top: 45px;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 135.9%;
+      /* or 54px */
+
+
+      color: #FFFFFF;
+
+
+    }
+    &__title{
+      margin-left: 20%;
+      margin-top: 35%;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 27px;
+      line-height: 121.4%;
+      color: #FFFFFF;
+
+    }
+    &__subtitle{
+      margin-left: 20%;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 135.9%;
+      color: #FFFFFF;
+    }
+  }
+  &__block2{
+    height: 57vh;
+    width: 50%;
+
+    background: url("../../../images/Music.png");
+    &__plus{
+      margin-left: 90%;
+      margin-top: 45px;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 135.9%;
+      /* or 54px */
+
+
+      color: #FFFFFF;
+
+
+    }
+    &__title{
+      margin-left: 20%;
+      margin-top: 35%;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 27px;
+      line-height: 121.4%;
+      color: #FFFFFF;
+
+    }
+    &__subtitle{
+      margin-left: 20%;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 135.9%;
+      color: #FFFFFF;
+    }
+  }
+}

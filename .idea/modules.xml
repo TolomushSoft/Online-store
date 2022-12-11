@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/apple-store.iml" filepath="$PROJECT_DIR$/.idea/apple-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gatgetium-store/.idea/gatgetium-store.iml" filepath="$PROJECT_DIR$/../gatgetium-store/.idea/gatgetium-store.iml" />
     </modules>
   </component>
 </project>

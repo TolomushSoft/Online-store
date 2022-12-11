@@ -1,0 +1,23 @@
+.dots{
+    padding: 4px 8px;
+}
+.slick-arrow{
+display: flex;
+    background: black;
+  color: black;
+}
+
+.slick-next{
+    width: 100px;
+    height: 100px;
+    background: #000;
+
+}
+.slick-dots li button{
+    background: #E2E4F2;
+    padding: 2px 20px;
+}
+
+.slick-dots li{
+
+}

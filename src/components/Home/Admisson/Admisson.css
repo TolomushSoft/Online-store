@@ -1,0 +1,27 @@
+.tabs {
+    margin-left: 0;
+}
+.tabs__title {
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2A2D46;
+}
+
+
+
+.react-tabs__tab {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2A2D46;
+    border: none;
+
+}
+.react-tabs__tab-list{
+    margin-left: 35%;
+
+}
