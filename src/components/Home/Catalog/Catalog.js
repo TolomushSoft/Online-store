@@ -9,6 +9,7 @@ import Tablet from '../../../Gatgets/Tablet'
 const Catalog = () => {
     return (
         <>
+            <div id="catalog">
             <h1 className='title1'>Каталог товаров</h1>
 <div className="d-flex">
     <Gatget/>
@@ -23,7 +24,20 @@ const Catalog = () => {
     <Drone/>
     <MacBook/>
     <Watch/>
-</div>
+    <MacBook/>
+    <Tablet/>
+    <Gatget/>
+    <Tablet/>
+    <Gatget/>
+    <Drone/>
+    <MacBook/>
+    <Watch/>
+    <MacBook/>
+    <Tablet/>
+    <Gatget/>
+    <Tablet/>
+    <Gatget/>
+</div></div>
         </>
     );
 };

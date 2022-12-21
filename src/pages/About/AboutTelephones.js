@@ -1,11 +1,54 @@
 import React from 'react';
+import './About.scss'
+import Iphone from '../../images/17195.webp'
 
-const About = () => {
+
+const AboutTelephones = () => {
     return (
         <>
+
+            <div id="about">
+                <div className="container">
+                    <div className="about">
+                        <div className="about__block">
+                            <img  width="250px" src={Iphone} alt="Drone"/>
+                            <div className="about__block__description">
+                                <h1 className="about__title">IPhone 14 Pro Max</h1>
+                                <div className="about__block__description__1">
+                                    <div className="about__block__description__2">
+                                        <p>Чипсет:</p>
+                                        <p>ОЗУ:</p>
+                                        <p>Память:</p>
+                                        <p>Дисплей:</p>
+                                        <p>Корпус:</p>
+                                        <p>Цвет:</p>
+                                        <p>Вес:</p>
+                                        <p>Производства:</p>
+                                    </div>
+                                    <div className="about__block__description__3">
+                                        <p>Apple A16 Bionic</p>
+                                        <p>6 GB</p>
+                                        <p>512GB</p>
+                                        <p>OLED 6.7 дюймов</p>
+                                        <p>Металл</p>
+                                        <p>Golden</p>
+                                        <p>0.24 kg</p>
+                                        <p>США</p>
+                                    </div>
+                                </div>
+                                <h1 className="about__block__description__price">91 660 сом</h1>
+                                <button className="about__block__description__btn">Заказать</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </>
     );
 };
 
-export default About;
+export default AboutTelephones;

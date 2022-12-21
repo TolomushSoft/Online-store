@@ -8,7 +8,12 @@ import Drones from "./pages/Drones/Drones";
 import Acsessuares from "./pages/Acsessuares/Acsessuares";
 import Watches from "./pages/Watches";
 import Home from "./components/Home/Home";
-import About from "../src/pages/About/About";
+import AboutTelephones from "../src/pages/About/AboutTelephones";
+import  AboutTablets from "../src/pages/About/AboutTablets";
+import  AboutMac from "../src/pages/About/AboutMac";
+import  AboutDrone from "../src/pages/About/AboutDrones";
+import  AboutWatch from "../src/pages/About/AboutWatch";
+
 
 
 function App() {
@@ -21,9 +26,12 @@ function App() {
                 <Route path="/tablets" element={<Tablets/>}/>
                 <Route path="/drones" element={<Drones/>}/>
                 <Route path="/watches" element={<Watches/>}/>
-                <Route path="/acsessuares" element={<Acsessuares/>}/>
-                <Route path="/about" element={<About/>}/>
-
+                <Route path="/macbooks" element={<Acsessuares/>}/>
+                <Route path="/abouttel" element={<AboutTelephones/>}/>
+                <Route path="/abouttab" element={<AboutTablets/>}/>
+                <Route path="/aboutdrone" element={<AboutDrone/>}/>
+                <Route path="/aboutmac" element={<AboutMac/>}/>
+                <Route path="/aboutwatch" element={<AboutWatch/>}/>
             </Routes>
             <Footer/>
         </div>

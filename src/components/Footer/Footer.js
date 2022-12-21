@@ -26,7 +26,7 @@ const Footer = () => {
                         <NavLink to='/tablets'>Планшеты</NavLink><br/>
                         <NavLink to='/drones'>Дроны</NavLink><br/>
                         <NavLink to='/watches'>Часы</NavLink><br/>
-                        <NavLink to='/acsessuares'>Ноутбуки</NavLink>
+                        <NavLink to='/macbooks'>Ноутбуки</NavLink>
                     </div>
                     <div className="footer_contacts">
                     <a href='tel:+996706289129' className="footer__contacts__phone">+996706289129</a>

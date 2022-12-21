@@ -1,6 +1,8 @@
 .blocks{
   display: flex;
   justify-content: space-around;
+  margin-top: 70px;
+
   &__block1{
     margin-left: -60px;
     width: 50%;
@@ -13,12 +15,7 @@
       font-weight: 800;
       font-size: 40px;
       line-height: 135.9%;
-      /* or 54px */
-
-
       color: #FFFFFF;
-
-
     }
     &__title{
       margin-left: 20%;
@@ -43,7 +40,6 @@
   &__block2{
     height: 57vh;
     width: 50%;
-
     background: url("../../../images/Music.png");
     &__plus{
       margin-left: 90%;

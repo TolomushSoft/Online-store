@@ -1,6 +1,9 @@
 import React from 'react';
 import drone from "../../../images/drone.svg";
 import './Hero.scss'
+import Catalog from '../Catalog/Catalog'
+import {Link, NavLink} from "react-router-dom";
+
 const Hero = () => {
     return (
         <>
@@ -12,10 +15,11 @@ const Hero = () => {
                                 на любой вкус и день</h2>
                             <p className="hero__title__right-subtitle">Мы собрали лучшие гаджеты от лучших брендов,
                                 чтобы порадовать вас свежими новинками digital-рынка. </p>
-                            <button className="hero__title__right-btn">Смотреть каталог</button>
+                            <a href="#catalog"> <button className="hero__title__right-btn">Смотреть каталог</button></a>
+
                         </div>
                         <div className="hero__background">
-                            <img src={drone} alt="Drone" className="hero__background__drone"/>
+                            <Link to={'/aboutdrone'}><img src={drone} alt="Drone" className="hero__background__drone"/></Link>
                             <div className="hero__background__description"><h2
                                 className="hero__background__description__title">DJI Mavic Pro</h2>
                                 <p className="hero__background__description__subtitle">32 MP Sphere Panoramas <br/>

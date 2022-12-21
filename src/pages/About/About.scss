@@ -1,0 +1,77 @@
+.container {
+}
+
+.about {
+  // .about__block
+  &__block {
+    display: flex;
+    align-items: center;
+
+    &__description {
+      margin-left: 170px;
+    }
+
+    // .about__block__description__1
+    &__description__1 {
+      display: flex;
+    }
+
+    // .about__block__description__2
+    &__description__2 p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 29px;
+      color: #2C3BA0;
+    }
+
+    // .about__block__description__3
+    &__description__3 p {
+      margin-left: 70px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 29px;
+
+      color: #646986;
+    }
+
+    // .about__block__description__price
+    &__description__price {
+      font-family: 'Barlow', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 70px;
+    }
+
+    // .about__block__description__btn
+    &__description__btn {
+      background: #EB2D66;
+      box-shadow: 0 7px 35px rgba(235, 45, 102, 0.35);
+      padding: 10px 55px;
+      border: none;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 145.4%;
+      color: #FFFFFF;
+      cursor: pointer;
+&:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+    }
+  }
+
+  // .about__title
+  &__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 81px;
+  }
+}

@@ -8,9 +8,8 @@ const MacBook = () => {
         <>
             <div className="block">
                 <p className='title'>MacBook Pro M1</p>
-                <NavLink to='/about'>
-                    <img width='200 px' height='140px' style={{padding: "32px 0"}} src={MacBookimg} alt=""/> </NavLink>
-
+                <NavLink to='/aboutmac'>
+                    <img width='190 px' height='130px' style={{padding: "32px 0"}} src={MacBookimg} alt=""/> </NavLink>
                 <div className="about">
                     <div className="about-1"><p>Чип:</p>
                         <p>ОЗУ:</p>

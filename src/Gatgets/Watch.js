@@ -8,7 +8,7 @@ const Watch = () => {
         <>
             <div className="block">
                 <p className='title'>Apple Watch 5</p>
-                <NavLink to='/about'>
+                <NavLink to='/aboutwatch'>
                     <img src={Watchimg} alt=""/> </NavLink>
 
                 <div className="about">

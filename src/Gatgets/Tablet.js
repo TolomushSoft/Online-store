@@ -8,8 +8,8 @@ const Tablet = () => {
         <>
             <div className="block">
                 <p className='title'>IPad Pro M2 </p>
-                <NavLink to='/about'>
-                    <img src={Ipad} alt=""/>            </NavLink>
+                <NavLink to='/abouttab'>
+                    <img src={Ipad} alt=""/></NavLink>
 
                 <div className="about">
                     <div className="about-1"><p>Корпус:</p>

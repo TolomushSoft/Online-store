@@ -24,7 +24,7 @@ const Header = () => {
                             <NavLink to='/tablets'>Планшеты</NavLink>
                             <NavLink to='/drones'>Дроны</NavLink>
                             <NavLink to='/watches'>Часы</NavLink>
-                            <NavLink to='/acsessuares'>Ноутбуки</NavLink>
+                            <NavLink to='/macbooks'>Ноутбуки</NavLink>
                         </div>
                         <div className="header__contacts">
                             <a href='tel:+996706289129' className="header__contacts__phone"><img width='20px'

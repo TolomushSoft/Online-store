@@ -8,16 +8,16 @@ display: flex;
 }
 
 .slick-next{
-    width: 100px;
-    height: 100px;
-    background: #000;
+
 
 }
 .slick-dots li button{
     background: #E2E4F2;
     padding: 2px 20px;
+    border-radius: 6px;
+    margin-bottom: 40px;
 }
 
-.slick-dots li{
+.slick-dots li button.active{
 
 }

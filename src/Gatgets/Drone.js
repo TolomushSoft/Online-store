@@ -8,7 +8,7 @@ const Drone = () => {
         <>
             <div className="block">
                 <p className='title'>DJI Mavic Pro </p>
-                <NavLink to='/about'>
+                <NavLink to='/aboutdrone'>
                     <img src={Droneimg} alt=""/> </NavLink>
 
                 <div className="about">

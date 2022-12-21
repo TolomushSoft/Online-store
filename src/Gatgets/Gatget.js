@@ -8,7 +8,7 @@ const Gatget = () => {
         <>
             <div className="block">
                 <p className='title'>Iphone 14 Pro Max </p>
-                <NavLink to='/about'>
+                <NavLink to='/abouttel'>
                     <img className='promax' width='130px' src={iphoneX} alt=""/> </NavLink>
 
                 <div className="about">

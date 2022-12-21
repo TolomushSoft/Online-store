@@ -22,7 +22,6 @@ export default class SimpleSlider extends Component {
             <div>
 
                 <Slider {...settings}>
-
                     <Gatget/>
                     <Tablet/>
                     <Drone/>
